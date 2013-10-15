@@ -5,17 +5,18 @@ Sublime Text 2 snippets for ng-docs.
 
 ![ngdocs-directive](https://raw.github.com/dac09/Sublime-Ngdocs/master/ngdocs-directive.gif)
 
-Useful links
-----
-[https://github.com/m7r/grunt-ngdocs-example] Grunt-ngdocs library
-[https://github.com/m7r/grunt-ngdocs-example] Grunt-ngdocs example
+##Useful links
+[Grunt-ngdocs library](https://github.com/m7r/grunt-ngdocs)
+[Grunt-ngdocs example](https://github.com/m7r/grunt-ngdocs-example) 
 
 
-Usage
-=====
+##Usage
 All keywords start with ngdocs
 
-So far
+So far:
 ngdocs-service
+
 ngdocs-directive
+
 ngdocs-method
+
