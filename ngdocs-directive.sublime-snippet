@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+    /**
+        * @ngdoc directive
+        * @name ${2:module}.directive:${3:directiveName}
+        * @restrict ${4:EAC}
+        * @description $5
+        * @element $6
+        * @example $7
+    **/
+    ]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ngdocs-directive</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
