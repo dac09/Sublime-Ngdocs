@@ -10,10 +10,11 @@ Sublime Text 2 snippets for ng-docs.
 
 
 ##Usage
-All keywords start with **ngdocs**
+All keywords start with **ngdocs**. Once you've inserted the snippet, tab through to change the names of the placeholders.
 
 So far:
 
 - ngdocs-service
 - ngdocs-directive
 - ngdocs-method
+- ngdocs-controller
