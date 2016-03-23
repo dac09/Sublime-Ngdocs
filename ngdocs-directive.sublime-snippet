@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
     /**
         * @ngdoc directive
         * @name ${2:module}.directive:${3:directiveName}
@@ -7,10 +7,28 @@
         * @description $5
         * @element $6
         * @example $7
+            <doc:example module="${2:module}" deps="">
+                <doc:source>
+                    <style>
+                    </style>
+                    <script>
+                        angular.module('${2:module}')
+                                .controller('Ctrl', function($scope) {
+
+                                });
+                    </script>
+                
+
+                <div ng-controller="Ctrl">
+
+                </div>
+                
+                </doc:source>
+            </doc:example>
     **/
     ]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>ngdocs-directive</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>ngdocs-directive</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
 </snippet>
