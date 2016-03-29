@@ -1,0 +1,14 @@
+<snippet>
+     <content><![CDATA[
+/**
+     * @ngdoc property
+     * @name ${1:module}.service.${2:service}#${3:propertyName}
+     * @propertyOf $1.service:$2
+     * @returns {$4} $5
+**/
+]]></content>
+     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+     <tabTrigger>ngdocs-service-property</tabTrigger>
+     <!-- Optional: Set a scope to limit where the snippet will trigger -->
+     <!-- <scope>source.python</scope> -->
+</snippet>
