@@ -2,7 +2,7 @@
 	<content><![CDATA[
 /**
 	* @ngdoc service
-	* @name ${1:module}.${2:service}
+	* @name ${1:module}.service:${2:service}
 	* @requires ${3:other}
 **/
 ]]></content>

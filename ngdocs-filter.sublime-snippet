@@ -1,16 +1,13 @@
 <snippet>
     <content><![CDATA[
     /**
-        * @ngdoc directive
-        * @name ${2:module}.directive:${3:directiveName}
-        * @restrict ${4:EAC}
-        * @description $5
-        * @element $6
-        * @example $7
+        * @ngdoc filter
+        * @name ${2:module}.filter:${3:filterName}
+        * @description $4
+        * @param $5
+        * @example $6
             <doc:example module="${2:module}" deps="">
                 <doc:source>
-                    <style>
-                    </style>
                     <script>
                         angular.module('${2:module}')
                                 .controller('Ctrl', function($scope) {
@@ -28,7 +25,7 @@
     **/
     ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>ngdocs-directive</tabTrigger>
+    <tabTrigger>ngdocs-filter</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <!-- <scope>source.python</scope> -->
 </snippet>
